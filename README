@@ -1,0 +1,19 @@
+This is a UART simulation in verilog
+
+It consists of three main modules
+1.Baud rate generator
+2.Transmitter
+3.Receiver
+
+Baud generator:
+Its supplied a clock of 100Mhz from top module
+It generates a baud rate of 9600
+It also supplies enb_rx and enc_tx to transmitter and receiver module respectivly
+
+Transmitter
+Gets data in parallel format converts it to serial format for transmission
+Transmit data when enb_tx signal received from baud rate generator
+
+Receiver
+Gets data in serial format and convert it into parallet
+Receives data when enb_rx signal received from baud rate generator
