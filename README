@@ -15,5 +15,5 @@ Gets data in parallel format converts it to serial format for transmission
 Transmit data when enb_tx signal received from baud rate generator
 
 Receiver
-Gets data in serial format and convert it into parallet
+Gets data in serial format and convert it into parallel
 Receives data when enb_rx signal received from baud rate generator
